@@ -1,0 +1,15 @@
+spring: 
+  profiles: 
+    active: 
+	- dev
+---
+spring: 
+  profiles: 
+  application:
+    name: microservicecloud-config-eying-dev
+---
+spring: 
+  profiles: test
+  application: 
+    name: microservicecloud-config-eying-test
+# 请保存为UTF-8格式
